@@ -1,51 +1,99 @@
-# Welcome to your Expo app 👋
+# 📋 ToDo offline Application (React Native + Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple yet powerful **ToDo App** built with **React Native** using **Expo**.  
+The app works on **both iOS and Android** and is designed for smooth performance and a clean UI.  
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- ✅ Add, edit, and delete tasks.
+- 📱 Works on **iOS** and **Android** (Expo build).
+- 💾 Uses **AsyncStorage** for local offline data storage.
+- 📦 APK file available for direct installation on Android.
+- 🎥 **YouTube demo** link for quick preview.
+- 🖼 App screenshots included.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📽 Demo Video
 
-In the output, you'll find options to open the app in a
+Watch the app in action:  
+[🎬 YouTube Demo](https://your-youtube-link-here)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📸 App Preview
 
-## Get a fresh project
+![App Screenshot](./assets/app-image.png)  
+*(Replace with your actual image path in the repo)*
 
-When you're ready, run:
+---
+
+## 🛠 Installation & Setup
+
+Follow the steps below to set up the project locally on your system.
+
+### 1️⃣ Prerequisites
+
+- [Node.js](https://nodejs.org/) installed
+- [Expo CLI](https://docs.expo.dev/get-started/installation/) installed globally:
+  ```bash
+  npm install -g expo-cli
+  ```
+- A mobile device with the [Expo Go app](https://expo.dev/client) installed (or use an emulator).
+
+---
+
+### 2️⃣ Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/piyush8512/todo-react-native-mobile-app-offlineVersion
+cd repo
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+### 3️⃣ Install Dependencies
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm install
+```
+or
+```bash
+yarn install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+### 4️⃣ Run the Project
 
-Join our community of developers creating universal apps.
+```bash
+expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# todo-react-native-mobile-app-offlineVersion
+Scan the QR code from the terminal or browser using the **Expo Go app** to run the project on your mobile.
+
+---
+
+## 📦 Building APK / iOS Build
+
+For Android APK:
+```bash
+expo build:android
+```
+
+For iOS build (requires macOS and Apple developer account):
+```bash
+expo build:ios
+```
+
+---
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+💡 **Tip:** If you just want to try the app without setting it up, download the APK from the apkfolder section.
